@@ -37,6 +37,12 @@
                 android:value="sbw.sunshine.SETTINGS"/>
         </activity>
 
+
+        <provider
+            android:authorities="sbw.sunshine.app"
+            android:name=".app.data.WeatherProvider"
+            />
+
     </application>
 
 </manifest>
